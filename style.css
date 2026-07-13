@@ -191,6 +191,11 @@
     font-weight: bold;
     border: 0.5px solid #000000;
 }
+.pricing-card hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
 .featured button{
     background-color: blue;
     color:white;
@@ -200,6 +205,102 @@
     background-color: white;
     color:blue;
     border: 0.5px solid #0044ff;
+}
+.venue{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    font-family: Inter, sans-serif;
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-family: Inter, sans-serif;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    font-family: Inter, sans-serif; 
+    max-width:650px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+}
+
+.venue-content{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:60px;
+    flex-wrap:wrap;
+    font-family: Inter, sans-serif;
+}
+
+.venue-info{
+    flex:1;
+    min-width:320px;
+}
+
+.info-card{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    padding:20px;
+    margin-bottom:20px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+}
+
+.info-card span{
+    font-size:32px;
+}
+
+.info-card h3{
+    margin-bottom:6px;
+}
+
+.info-card p{
+    font-family: Inter, sans-serif;
+    color:#666;
+    line-height:1.6;
+}
+
+.venue-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 32px;
+    background:#5b5df0;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+    font-family: Inter, sans-serif;
+}
+
+.venue-btn:hover{
+    background:#4446d9;
+}
+
+.venue-image{
+    flex:1;
+    min-width:320px;
+}
+
+.venue-image img{
+    width:114%;
+    border-radius:15px;
+    display:block;
 }
 .footer{
     height: 50px;
