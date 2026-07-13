@@ -82,3 +82,118 @@
     font-size: 1rem;
     margin-top: 11rem;
 }
+.speaker-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.speakers h2{
+    font-family: Inter, sans-serif;
+    Font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.speaker-card{
+    border:1px solid #ddd;
+    border-radius:12px;
+    overflow:hidden;
+}
+.speaker-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+.speaker-info{
+    font-family: Inter, sans-serif;
+    padding:20px;
+}
+.speaker-info p{
+    font-size:0.8rem;
+    color: blue;
+    margin-bottom:10px;
+}
+.speaker-info span{
+    font-size:0.9rem;
+    color:#565656;
+}
+.pricing-container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+.pricing h2{
+    font-family: Inter, sans-serif;
+    Font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.pricing p{
+
+    font-family: Inter, sans-serif;
+    font-size: 0.7rem;
+    color: #595959;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.pricing-card{
+    font-family: Inter, sans-serif;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:40px;
+}
+.pricing-card p, small{
+    font-family: Inter, sans-serif;
+    font-size: 0.5rem;
+    color: #595959;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.pricing-card h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+.pricing-card li{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    text-align: left;
+}  
+.featured{
+    background:#0f172a;
+    color:white;
+}
+.featured small{
+    color: blue;
+    font-weight: bold;
+}
+.pricing-card li::marker{
+    color: blue;
+}
+.pricing-card button{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    margin-top:20px;
+    cursor:pointer;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    border: 0.5px solid #000000;
+}
+.featured button{
+    background-color: blue;
+    color:white;
+    border:none;
+}
+#standard-button{
+    background-color: white;
+    color:blue;
+    border: 0.5px solid #0044ff;
+}
