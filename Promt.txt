@@ -1,0 +1,4 @@
+I have built  a landing page for devconf26. I have added a header, a footer, a banner, a section where people can see the speaker details and
+a section for registration plan. Now I want to add another section after registration pricing section and before footer.
+The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights,
+Job Board, etc.). Give me an idea that I can build in this section. 
